@@ -34,6 +34,9 @@ Calls randomintarray to generate lists,
 and sorts them by calling insertionsort upon each list
 returns list of sorted lists
 '''
+#import time
+#millis = int(round(time.time() * 1000))
+#print millis
 def randomsorter(listAmount):
     currentList = randomintarray(listAmount)
     sortedList = []
